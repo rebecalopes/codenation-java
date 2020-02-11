@@ -1,8 +1,10 @@
-package br.com
+package br.com;
 
 public class Principal {
 	
 	public static void main(String[] args) {
-		System.out.println("Hello Codenation!");
+		
+		String nome = "Rebeca";
+		System.out.println("Hello " + nome);
 	}
 }
